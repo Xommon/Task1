@@ -251,6 +251,8 @@ MonoBehaviour:
   selected: 0
   startingColour: {r: 0, g: 0, b: 0, a: 0}
   renderer: {fileID: 0}
+  rb: {fileID: 0}
+  speed: 0.05
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +473,8 @@ MonoBehaviour:
   selected: 0
   startingColour: {r: 0, g: 0, b: 0, a: 0}
   renderer: {fileID: 0}
+  rb: {fileID: 0}
+  speed: 0.05
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,6 +782,8 @@ MonoBehaviour:
   selected: 0
   startingColour: {r: 0, g: 0, b: 0, a: 0}
   renderer: {fileID: 0}
+  rb: {fileID: 0}
+  speed: 0.05
 --- !u!1 &1829716854
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,3 +912,5 @@ MonoBehaviour:
   selected: 0
   startingColour: {r: 0, g: 0, b: 0, a: 0}
   renderer: {fileID: 0}
+  rb: {fileID: 0}
+  speed: 0.05
