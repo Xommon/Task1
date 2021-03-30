@@ -51,6 +51,25 @@ public class PlayerMovement : MonoBehaviour
             rb.position = startingPosition;
             rb.rotation = Quaternion.identity;
         }
+
+        if (selected)
+        {
+            // Change player colour if selected
+            renderer.material.color = Color.red;
+        }
+        else
+        {
+            renderer.material.color = startingColour;
+        }
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            // Select all objects
+            foreach (PlayerMovement player in FindObjectsOfType<PlayerMovement>())
+            {
+                player.selected = true;
+            }
+        }
     }
 
     private void OnMouseDown()
@@ -59,11 +78,9 @@ public class PlayerMovement : MonoBehaviour
         {
             // Unselect other players
             player.selected = false;
-            player.renderer.material.color = player.startingColour;
         }
 
         selected = true;
-        renderer.material.color = Color.red;
     }
 
     private void OnCollisionEnter(Collision collision)
