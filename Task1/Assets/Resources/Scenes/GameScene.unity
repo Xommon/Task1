@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 107481587}
   - component: {fileID: 107481586}
   - component: {fileID: 107481590}
+  - component: {fileID: 107481591}
   m_Layer: 0
   m_Name: GreenCube
   m_TagString: Untagged
@@ -235,6 +236,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &107481591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107481585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e44ef347cbc03634aab61fba7dfa61b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: 0
+  startingColour: {r: 0, g: 0, b: 0, a: 0}
+  renderer: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,6 +356,7 @@ GameObject:
   - component: {fileID: 785242301}
   - component: {fileID: 785242300}
   - component: {fileID: 785242304}
+  - component: {fileID: 785242305}
   m_Layer: 0
   m_Name: BlackCube
   m_TagString: Untagged
@@ -439,6 +456,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &785242305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785242299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e44ef347cbc03634aab61fba7dfa61b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: 0
+  startingColour: {r: 0, g: 0, b: 0, a: 0}
+  renderer: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,6 +663,7 @@ GameObject:
   - component: {fileID: 1394579334}
   - component: {fileID: 1394579333}
   - component: {fileID: 1394579337}
+  - component: {fileID: 1394579338}
   m_Layer: 0
   m_Name: BlueCube
   m_TagString: Untagged
@@ -730,6 +763,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1394579338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394579332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e44ef347cbc03634aab61fba7dfa61b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: 0
+  startingColour: {r: 0, g: 0, b: 0, a: 0}
+  renderer: {fileID: 0}
 --- !u!1 &1829716854
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,6 +791,7 @@ GameObject:
   - component: {fileID: 1829716856}
   - component: {fileID: 1829716855}
   - component: {fileID: 1829716859}
+  - component: {fileID: 1829716860}
   m_Layer: 0
   m_Name: YellowCube
   m_TagString: Untagged
@@ -842,3 +891,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1829716860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829716854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e44ef347cbc03634aab61fba7dfa61b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selected: 0
+  startingColour: {r: 0, g: 0, b: 0, a: 0}
+  renderer: {fileID: 0}
